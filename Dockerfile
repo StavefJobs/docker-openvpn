@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 ENV SSH_USER=admin \
     SSH_PASSWORD=Passw0rd! \
-    GITHUB_USER=your_github_username
+    GITHUB_USER=StavefJobs/docker-openvpn
 
 RUN apt-get update && apt-get install -y \
     openssh-server \
